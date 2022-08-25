@@ -1,0 +1,26 @@
+.container{
+     margin-top:7%;
+     
+}
+.img-container{
+    margin-right: 2rem;
+
+}
+.row{
+    display: flex;
+}
+.bot{
+    margin-top: 2rem;
+}
+img{
+    border-radius: 5%;
+    width: 125%;
+    height: 50%;
+}
+.flipped{
+    transform: rotateY(180deg);
+    transition: 1s all ease;
+}
+.matched{
+    opacity: 0.7;
+}
